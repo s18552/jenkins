@@ -24,7 +24,7 @@ class JenkinsApplicationTests {
 
     @Test
     void shouldReturnHelloWorld() throws Exception {
-        this.mockMvc.perform(get("/home"))
+        this.mockMvc.perform(get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().string("Hello World!!!"));

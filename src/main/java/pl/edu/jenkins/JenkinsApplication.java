@@ -14,7 +14,7 @@ public class JenkinsApplication {
         SpringApplication.run(JenkinsApplication.class, args);
     }
 
-    @GetMapping("/home")
+    @GetMapping("/")
     public ResponseEntity<String> hello(){
         return ResponseEntity.ok("Hello World!!!");
     }
