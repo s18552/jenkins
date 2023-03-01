@@ -40,7 +40,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.7</version>
                 <configuration>
-                    <appName>jenkins</appName>
+                    <appName>my-jenkins</appName>
                     <processTypes>
                         <web>java -jar -Dserver.port=$PORT target/${project.build.finalName}.jar</web>
                     </processTypes>
