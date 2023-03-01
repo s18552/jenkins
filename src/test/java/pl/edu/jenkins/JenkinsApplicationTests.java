@@ -27,7 +27,7 @@ class JenkinsApplicationTests {
         this.mockMvc.perform(get("/home"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello World!"));
+                .andExpect(content().string("Hello World!!!"));
 
     }
 
