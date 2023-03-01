@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.edu</groupId>
-    <artifactId>jenkins</artifactId>
+    <artifactId>my-jenkins</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>jenkins</name>
     <description>jenkins</description>
